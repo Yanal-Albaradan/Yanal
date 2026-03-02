@@ -17,3 +17,6 @@ const state = {
     cart: loadCart()
 };
 
+const refs = {
+    
+}

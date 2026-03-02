@@ -37,13 +37,6 @@ body {
     color: #ffd36a;
 }
 
-.hero-card {
-    background: rgba(255, 255, 255, 0.05);
-    color: var(--text-main);
-    border-radius: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.7);
-}
-
 .filters-panel,
 .cart-panel,
 .info-card {
@@ -53,11 +46,7 @@ body {
     box-shadow: 0 10px 30px rgba(19, 42, 31, 0.08);
 }
 
-.promo-alert {
-    border-radius: 0.9rem;
-}
-
-/*.product-card {
+.product-card {
     background: var(--card);
     border-radius: 1rem;
     border: 1px solid var(--border-soft);
@@ -69,7 +58,7 @@ body {
 .product-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 14px 30px rgba(19, 42, 31, 0.12);
-}*/
+}
 
 .emoji-box {
     width: 52px;
