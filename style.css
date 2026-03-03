@@ -19,9 +19,14 @@ body {
 }
 
 .glass-nav {
-    background: rgba(19, 42, 31, 0.9);
+    background: #132a1fe6;
     backdrop-filter: blur(10px);
     border-bottom: 1 px solid rgba(255, 255, 255, 0.1);
+}
+
+.contactHead{
+    background-color: #0000008a;
+    border-radius: 10px;
 }
 
 .hero-section {
@@ -66,7 +71,7 @@ body {
     display: grid;
     place-items: center;
     border-radius: 0.8rem;
-    background: linear-gradient/135deg, #eaf9ed, #fff4d6;
+    background: linear-gradient (135deg, #eaf9ed, #fff4d6);
     font-size: 1.6rem;
 }
 
@@ -119,11 +124,6 @@ body {
     border: 1px solid var(--border-soft);
     border-radius: 1rem;
     box-shadow: 0 12px 28px rgba(19, 42, 31, 0.08);
-}
-
-.footer-mini {
-    color: #5f6b78;
-    font-size: 0.92rem;
 }
 
 .added-flash {

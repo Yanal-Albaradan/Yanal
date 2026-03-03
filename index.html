@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark glass-nav">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Matkorgen Online</a>
+            <a class="navbar-brand fw-bold" href="index.html">Matkorgen Online</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -143,7 +143,7 @@
                     <form id="newsletterForm" class="info-card p-4 h-100">
                         <h3 class="h5">Bonus: Nyhetsbrev</h3>
                         <p class="text-muted small">En enkel extra funktion för att visa formulärhantering på
-                        startsidan.</p>
+                            startsidan.</p>
                         <label for="newsletterEmail" class="form-label">E-postadress</label>
                         <input type="email" id="newsletterEmail" class="form-control mb-3" placeholder="namn@email.com"
                             required>
@@ -153,38 +153,41 @@
                 </div>
             </div>
         </section>
-    </main>
 
-    <footer>
-        <button id="backToTop" class="btn btn-dark back-to-top" type="button" aria-label="Till toppen">↑</button>
-
-        <div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="checkoutModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title fs-5" id="checkoutModalLabel">Kassasammanfattning</h2>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Stäng"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div id="checkoutSummary"></div>
-                        <div class="alert alert-info mt-3 mb-0">
-                            Detta är en demo, så ingen riktig betalning sker.
+        <section>
+            <button id="backToTop" class="btn btn-dark back-to-top" type="button" aria-label="Till toppen">↑</button>
+            <div class="modal fade" id="checkoutModal" tabindex="-1" aria-labelledby="checkoutModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h2 class="modal-title fs-5" id="checkoutModalLabel">Kassasammanfattning</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Stäng"></button>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Stäng</button>
-                        <button type="button" id="confirmOrderBtn" class="btn btn-success">Bekräfta demo-order</button>
+                        <div class="modal-body">
+                            <div id="checkoutSummary"></div>
+                            <div class="alert alert-info mt-3 mb-0">
+                                Detta är en demo, så ingen riktig betalning sker.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Stäng</button>
+                            <button type="button" id="confirmOrderBtn" class="btn btn-success">Bekräfta
+                                demo-order</button>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+    </main>
+
+    <footer style="background-color: #132a1fe6;">
+        <div class="text-center p-3" style="color: white;">
+            <p> &copy; 2026 Matkorgen Online. Alla rättigheter förbehållna</p>
         </div>
     </footer>
 
-    <div class="text-center p-3" style="background-color: #000000; color: white;">
-        <p> &copy; 2026 Matkorgen Online. Alla rättigheter förbehållna</p>
-    </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
