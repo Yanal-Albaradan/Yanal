@@ -5,7 +5,7 @@
     --accent: #2f9e44;
     --accent-2: #f59f00;
     --text-main: #1f2937;
-    --border-soft: rgba (19, 42, 31, 0.1);
+    --border-soft: rgba(19, 42, 31, 0.1);
 }
 
 * {
@@ -21,16 +21,16 @@ body {
 .glass-nav {
     background: #132a1fe6;
     backdrop-filter: blur(10px);
-    border-bottom: 1 px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.contactHead{
+.contactHead {
     background-color: #0000008a;
     border-radius: 10px;
 }
 
 .hero-section {
-    background: 
+    background:
         linear-gradient(135deg, rgba(19, 42, 31, 0.95), rgba(47, 158, 68, 0.85)),
         radial-gradient(circle at 15% 20%, rgba(245, 159, 0, 0.25), transparent 45%);
     color: #fff;
@@ -42,18 +42,17 @@ body {
     color: #ffd36a;
 }
 
-.filters-panel,
 .cart-panel,
 .info-card {
     background: rgba(255, 255, 255, 0.92);
-    border-radius: 1rem;
+    border-radius: 16px;
     border: 1px solid var(--border-soft);
     box-shadow: 0 10px 30px rgba(19, 42, 31, 0.08);
 }
 
 .product-card {
     background: var(--card);
-    border-radius: 1rem;
+    border-radius: 16px;
     border: 1px solid var(--border-soft);
     box-shadow: 0 8px 20px rgba(19, 42, 31, 0.06);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -65,25 +64,15 @@ body {
     box-shadow: 0 14px 30px rgba(19, 42, 31, 0.12);
 }
 
-.emoji-box {
-    width: 52px;
-    height: 52px;
-    display: grid;
-    place-items: center;
-    border-radius: 0.8rem;
-    background: linear-gradient (135deg, #eaf9ed, #fff4d6);
-    font-size: 1.6rem;
-}
-
 .product-meta {
-    font-size: 0.85rem;
+    font-size: 13.6px;
     color: #4b5563;
 }
 
 .cart-item {
     border: 1px solid var(--border-soft);
-    border-radius: 0.85rem;
-    padding: 0.75rem;
+    border-radius: 13.6px;
+    padding: 12px;
     background: #fbfdfb;
 }
 
@@ -96,23 +85,6 @@ body {
     line-height: 1;
 }
 
-.empty-state {
-    padding: 1rem;
-    border: 1px dashed rgba(31, 41,55, 0.2);
-    border-radius: 0.8rem;
-    background: rgba(255, 255, 255, 0.6);
-}
-
-.back-to-top {
-    position: fixed;
-    right: 1rem;
-    bottom: 1rem;
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    display:none;
-    z-index: 1040;
-}
 
 .contact-hero {
     background: linear-gradient(135deg, #153324, #2f9e44 60%, #8fd19e);
@@ -122,18 +94,8 @@ body {
 .contact-card {
     background: rgba(255, 255, 255, 0.96);
     border: 1px solid var(--border-soft);
-    border-radius: 1rem;
+    border-radius: 16px;
     box-shadow: 0 12px 28px rgba(19, 42, 31, 0.08);
-}
-
-.added-flash {
-    animation: flashPulse 0.4s ease;
-}
-
-@keyframes flashPulse  {
-    0% {transform: scale(1); }
-    50% {transform: scale(1.03); box-shadow: 0 0 0 4px rgba(47, 158, 68, 0.2) };
-    100% {transform: scale(1); }
 }
 
 @media (max-width: 991.98px) {
@@ -144,7 +106,7 @@ body {
 
 @media (max-width: 575.98px) {
     .hero-section {
-        padding-top: 2rem;
+        padding-top: 32px;
     }
 
     .product-card .btn {
